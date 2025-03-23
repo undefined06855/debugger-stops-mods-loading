@@ -1,0 +1,32 @@
+{
+	"geode": "4.3.0",
+	"gd": { "win": "2.2074" },
+	
+	"id": "aaa.aaa",
+	"name": "aaaaaDebugger Stops Mods Loading",
+	"version": "v1.0.0",
+	"developer": "undefined0",
+	"description": "if there's a debugger only your mods load wow (or at least it tries its hardest)",
+	"early-load": true,
+
+	"settings": {
+		"devs": {
+			"type": "string",
+			"name": "Dev IDs Whitelist",
+			"description": "List of dev ids to load mods from - separated by commas (not comma space!).",
+			"default": "geode,undefined0"
+		},
+		"mods": {
+			"type": "string",
+			"name": "Mod IDs Whitelist",
+			"description": "List of mod ids to load mods from - separated by commas (not comma space!).",
+			"default": "absolllute.megahack"
+		},
+		"mods-blacklist": {
+			"type": "string",
+			"name": "Mod IDs Blacklist",
+			"description": "List of mod ids to <cr>never</c> load mods from - separated by commas (not comma space!).",
+			"default": "undefined0.gdvr"
+		}
+	}
+}
