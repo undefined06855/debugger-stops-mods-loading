@@ -4,7 +4,7 @@
 	
 	"id": "aaa.aaa",
 	"name": "aaaaaDebugger Stops Mods Loading",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "undefined0",
 	"description": "if there's a debugger only your mods load wow (or at least it tries its hardest)",
 	"early-load": true,
