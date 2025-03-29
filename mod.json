@@ -14,19 +14,22 @@
 			"type": "string",
 			"name": "Dev IDs Whitelist",
 			"description": "List of dev ids to load mods from - separated by commas (not comma space!).",
-			"default": "geode,undefined0"
+			"default": "geode,undefined0",
+			"filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-.,_"
 		},
 		"mods": {
 			"type": "string",
 			"name": "Mod IDs Whitelist",
 			"description": "List of mod ids to load mods from - separated by commas (not comma space!).",
-			"default": "absolllute.megahack"
+			"default": "absolllute.megahack",
+			"filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-.,_"
 		},
 		"mods-blacklist": {
 			"type": "string",
 			"name": "Mod IDs Blacklist",
 			"description": "List of mod ids to <cr>never</c> load mods from - separated by commas (not comma space!).",
-			"default": "undefined0.gdvr"
+			"default": "undefined0.gdvr",
+			"filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-.,_"
 		}
 	}
 }
